@@ -80,6 +80,61 @@ if($tengo){
     echo"No puedo ir al cine :`(";
 }
 
+echo"<br>";
+echo"<br>";
+//Video 4 operadores
+echo"Practica 4";
+
+ $a = 4;
+ $A = "2";
+ $b = 2;
+ $c = $a + $b;//lo mismo con multiplicacion *,division / etc...
+ $z = 3;
+ echo"<br>";
+echo"<br>";
+
+echo $c;
+
+echo"<br>";
+echo"<br>";
+//con operador de comparacion:
+
+if($a>$b){
+
+    echo"Es verdadero";
+
+}else{
+
+ echo"Es falso";
+
+}
+
+echo"<br>";
+echo"<br>";
+
+if($A === $b)//Al colocarle triple igual se evalua como identico,pero con doble igual se evalua como igual(valga la redundancia)
+{
+
+    echo"Es verdadero";
+
+}else{
+
+ echo"Es falso";
+}
+
+echo"<br>";
+echo"<br>";
+//Operadores logicos:
+if($z<$a && $z>$b )
+{
+
+    echo"Es verdadero";
+
+}else{
+
+ echo"Es falso";
+
+}
 
 
 
