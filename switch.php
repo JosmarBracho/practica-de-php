@@ -1,5 +1,9 @@
 <?php
-//video 9 sentencia switch
+//video 10 sentencia switch
+
+echo "Practica 10";
+echo "<br>";
+echo "<br>";
 
 $eleccion = "pizza";
 
