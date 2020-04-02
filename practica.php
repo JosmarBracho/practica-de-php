@@ -44,7 +44,42 @@ echo"<br>";
 $nombre = "Josmar";//<-- Declaracion de variable de tipo string
 
 
-echo $nombre .  "tiene la edad de ".$edad."años"; 
+echo $nombre .  "tiene la edad de ".$edad."años";
+
+
+echo"<br>";
+echo"<br>";
+
+//Tercer video
+echo"Practica 3";
+
+echo"<br>";
+echo"<br>";
+
+$dinero = 1000;
+
+if($dinero>3000){
+
+    echo"Puedo ir al cine";
+
+}else{
+    echo"No puedo ir al cine :`(";
+}
+
+//Con variable buleana
+echo"<br>";
+echo"<br>";
+
+$tengo = true;
+
+if($tengo){
+
+    echo"Puedo ir al cine";
+
+}else{
+    echo"No puedo ir al cine :`(";
+}
+
 
 
 
