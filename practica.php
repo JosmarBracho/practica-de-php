@@ -135,7 +135,35 @@ if($z<$a && $z>$b )
  echo"Es falso";
 
 }
+echo"<br>";
+echo"<br>";
+//Video 5
+echo"Practica 5";
 
+echo"<br>";
+echo"<br>";
+
+$i = 1;
+$o = 1;
+//Ciclo while:
+while($i<10){
+ 
+    echo $i."</br>";
+    $i++;
+}
+echo"<br>";
+echo"<br>";
+
+//Ciclo Do While:
+
+do{
+ echo $o. "</br>";
+ $o++;
+}
+while($o<10);
+
+echo"<br>";
+echo"<br>";
 
 
 ?>
